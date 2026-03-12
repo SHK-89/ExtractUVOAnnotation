@@ -3,7 +3,7 @@ import pickle
 import os
 
 video_path = r"C:\SCIoI\ExtractUVOAnnotation\dataset\uvoVideos\0-NiXohf8vM.mp4"
-pkl_path   = r"C:\SCIoI\ExtractUVOAnnotation\results\newAnnotationFiles\0-NiXohf8vM.pkl"
+pkl_path   = r"C:\SCIoI\ExtractUVOAnnotation\results\annotationFiles\0-NiXohf8vM.pkl"
 annotated_path = r"C:\SCIoI\ExtractUVOAnnotation\results\annotatedVideos"
 
 with open(pkl_path, "rb") as f:

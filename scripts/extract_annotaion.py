@@ -5,7 +5,7 @@ import pickle
 
 input_path = r"C:\SCIoI\ExtractUVOAnnotation\dataset\VideoDenseSet\Video_val_dense.json"
 
-output_root = r"C:\SCIoI\ExtractUVOAnnotation\results\newAnnotationFiles"
+output_root = r"C:\SCIoI\ExtractUVOAnnotation\results\annotationFiles"
 os.makedirs(output_root, exist_ok=True)
 
 with open(input_path, "r") as f:

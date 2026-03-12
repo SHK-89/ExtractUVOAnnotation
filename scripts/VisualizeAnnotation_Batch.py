@@ -6,7 +6,7 @@ import pickle
 # Define all directories
 # ------------------------
 video_dir = r"C:\SCIoI\ExtractUVOAnnotation\dataset\uvoVideos"
-anno_root = r"C:\SCIoI\ExtractUVOAnnotation\results\newAnnotationFiles"
+anno_root = r"C:\SCIoI\ExtractUVOAnnotation\results\annotationFiles"
 output_dir = r"C:\SCIoI\ExtractUVOAnnotation\results\annotatedVideos"
 
 os.makedirs(output_dir, exist_ok=True)
