@@ -2,9 +2,9 @@ import cv2
 import pickle
 import os
 
-video_path = r"C:\SCIoI\Myannotation\sam3-main\myutils\uvoVideos\0-NiXohf8vM.mp4"
-pkl_path   = r"C:\SCIoI\Myannotation\sam3-main\myutils\newAnnotationFiles\0-NiXohf8vM.pkl"
-annotated_path = r"C:\SCIoI\Myannotation\sam3-main\myutils\annotatedVideos\\"
+video_path = r"C:\SCIoI\ExtractUVOAnnotation\dataset\uvoVideos\0-NiXohf8vM.mp4"
+pkl_path   = r"C:\SCIoI\ExtractUVOAnnotation\results\newAnnotationFiles\0-NiXohf8vM.pkl"
+annotated_path = r"C:\SCIoI\ExtractUVOAnnotation\results\annotatedVideos"
 
 with open(pkl_path, "rb") as f:
     ann_dict = pickle.load(f)

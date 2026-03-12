@@ -2,8 +2,8 @@
 import json
 import os
 
-train_path = r"C:\SCIoI\Myannotation\sam3-main\myutils\VideoDenseSet\Video_train_dense.json"
-val_path = r"C:\SCIoI\Myannotation\sam3-main\myutils\VideoDenseSet\Video_val_dense.json"
+train_path = r"C:\SCIoI\ExtractUVOAnnotation\dataset\VideoDenseSet\Video_train_dense.json"
+val_path = r"C:\SCIoI\ExtractUVOAnnotation\dataset\VideoDenseSet\Video_val_dense.json"
 
 with open(train_path, "r") as f:
     train_data = json.load(f)

@@ -5,9 +5,9 @@ import pickle
 # ------------------------
 # Define all directories
 # ------------------------
-video_dir = r"C:\SCIoI\Myannotation\sam3-main\myutils\uvoVideos"
-anno_root = r"C:\SCIoI\Myannotation\sam3-main\myutils\newAnnotationFiles"
-output_dir = r"C:\SCIoI\Myannotation\sam3-main\myutils\annotatedVideos"
+video_dir = r"C:\SCIoI\ExtractUVOAnnotation\dataset\uvoVideos"
+anno_root = r"C:\SCIoI\ExtractUVOAnnotation\results\newAnnotationFiles"
+output_dir = r"C:\SCIoI\ExtractUVOAnnotation\results\annotatedVideos"
 
 os.makedirs(output_dir, exist_ok=True)
 
@@ -116,6 +116,7 @@ for video_file in video_files:
 
                 # Draw segmentation info text
                 seg = ann["seg"]
+                object_id = ann["obj_id"]
                 #text = f"size:{seg.get('size')} count:{seg.get('counts')}"
                 text = f"obj_id:{object_id}"
                 cv2.putText(frame, text, (x, y - 5),
